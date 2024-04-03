@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header{
+    width: 100%;
+}
+
+
+.dashboard{
+    width: 100%;
+    max-width: 35rem;
+    margin: 2rem 0;
+}
+
+.content{
+    width: 100%;
+}
+
+.heading{
+    margin: 2rem 0;
+    font-size: 3rem;
+    color: #939393;
+}
+
+.sub_text{
+    font-size: 1.25rem;
+}
+
+.black_text{
+    color: #000;
+}
+
+form{
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 50rem;
+    position: relative;
+}
+
+.input_email, .submit{
+    border-radius: 2rem;
+    border: 1px solid #ebebeb;
+    
+}
+
+.input_email{
+    width: 45%;
+    max-width: 25rem;
+    padding: 1rem 1.5rem;
+    outline: none;
+}
+
+.submit{
+    width: 16%;
+    max-width: 10rem;
+    padding: 1rem 0;
+    margin-left: .7rem;
+    cursor: pointer;
+    background-color: #4D7BF3;
+    color: #fff;
+    box-shadow: 1px 1px 10px #dadada;
+}
+
+.submit:hover{
+    background-color: #7195F5;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.contain_social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social_link{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    color: #4D7BF3;
+    border: 1px solid #4D7BF3;
+    padding: .75rem;
+    border-radius: 50%;
+}
+
+.social_link:hover{
+    color: #fff;
+    background-color: #4D7BF3;
+}
+
+.fa-facebook-f{
+    padding: 0 .25rem;
+}
+
+.copyright{
+    margin-top: 1rem;
+    color: #939393;
+}
+
+.error {
+    display: block;
+    position: absolute;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 0;
+    font-size: 80%;
+    color: rgb(192, 70, 70);
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    font-style: italic;
+  }
+
+  .red_border {
+    border: 1px solid red;
+  }
+
+  @media only screen and (max-width:760px){
+    #mail{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .error{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+    }
+
+    .input_email{
+        width: 100%;
+        max-width: 90%;
+        padding: 1rem 1rem;
+    }
+
+    .submit{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+
+  }
